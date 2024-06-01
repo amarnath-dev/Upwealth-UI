@@ -1,0 +1,16 @@
+
+/* Login Button Styling  */
+.login-button {
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  background-color: #f0f0f3;
+  font-size: 1em;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: -1px -1px 2px 0 #f0f0f3, -5px -5px 11.5px 0 #f0f0f3,
+    1px 1px 2px 0 rgba(0, 0, 0, 0.25), 5px 5px 8.5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.login-button:hover {
+  background-color: #eceaea;
+}
