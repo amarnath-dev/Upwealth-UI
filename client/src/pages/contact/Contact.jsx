@@ -94,7 +94,7 @@ export const Contact = () => {
           </div>
           <div className="grow flex justify-center items-center">
             <div className="w-full">
-              <div className="flex justify-center gap-5">
+              <div className="ml-24 flex gap-5">
                 <ChatBtn />
                 <CallBtn />
                 <EmailBtn />
