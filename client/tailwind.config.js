@@ -12,11 +12,12 @@ export default {
         "background-color": "#F0F0F3",
         "primary-color": "#F0F0F3",
         "accent-color": "#C07708",
-        //Text
+        //text
         "primary-text": "#000000",
         "sub-text": "#202020",
-        //Buttons
+        //buttons
         "call": "#494949",
+        "golden": "#c07708"
       },
       backgroundImage: {
         "home-background-img": "url('./src/assets/images/home-bg.png')",

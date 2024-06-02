@@ -15,7 +15,7 @@ export const Footer = () => {
         <div className="flex flex-col items-center w-full">
           <div className="flex gap-5 justify-between items-center w-full">
             <img src={Logo} alt="logo" className="w-40 cursor-pointer" />
-            <div className="flex gap-5 justify-between my-auto text-xl text-black font-Montserrat">
+            <div className="flex gap-5 justify-between text-sm font-medium text-primary-text font-Montserrat ml-28">
               <div className="my-auto">
                 <span className="cursor-pointer">Home</span>
               </div>
@@ -34,9 +34,9 @@ export const Footer = () => {
               })}
             </div>
           </div>
-          <div className="divider mt-8 max-w-full h-1.5 rounded-lg shadow w-96 bg-background-color" />
-          <div className="mt-8 text-xl font-medium text-primary-text">
-            <h1 className="font-Montserrat">
+          <div className="divider mt-8 max-w-full h-1.5 rounded-lg shadow w-72 bg-background-color" />
+          <div className="mt-8 text-md font-medium text-primary-text">
+            <h1 className="font-Montserrat font-semi-bold">
               © 2022 - 2024 | Alrights reserved by Kaltech Designs
             </h1>
           </div>
