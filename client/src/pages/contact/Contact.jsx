@@ -105,9 +105,9 @@ export const Contact = () => {
       </section>
 
       {/* Footer  */}
-      <section>
+      <footer>
         <Footer />
-      </section>
+      </footer>
     </>
   );
 };
