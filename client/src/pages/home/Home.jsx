@@ -6,14 +6,15 @@ import EclipseTextOne from "../../assets/images/eclipse-text-one.png";
 import EclipseTextTwo from "../../assets/images/eclipse-text-two.png";
 import EclipseTextThree from "../../assets/images/eclipse-text-three.png";
 import EclipseImg from "../../assets/images/eclipse-img.png";
+import { NavigateBtn } from "../../components/buttons/NavigateButton/NavigateBtn";
 import "./Home.css";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       {/* Top Section Design */}
       <section className="bg-home-background-img bg-cover w-screen">
+        <Navbar page={"home"} />
         <div className="w-full h-full">
           <div className="flex">
             <div className="flex justify-center items-center flex-1 h-screen">
@@ -37,6 +38,9 @@ const Home = () => {
                   </h1>
                   <div className="py-4">
                     <SubscribeBtn />
+                  </div>
+                  <div className="mt-8">
+                    <NavigateBtn />
                   </div>
                 </div>
               </div>
@@ -67,11 +71,7 @@ const Home = () => {
             </div>
           </div>
 
-
           <AboutUs />
-
-
-
         </div>
       </section>
     </>
