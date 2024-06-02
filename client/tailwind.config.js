@@ -15,6 +15,8 @@ export default {
         //Text
         "primary-text": "#000000",
         "sub-text": "#202020",
+        //Buttons
+        "call": "#494949",
       },
       backgroundImage: {
         "home-background-img": "url('./src/assets/images/home-bg.png')",
