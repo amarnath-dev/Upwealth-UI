@@ -18,6 +18,7 @@ export default {
       },
       backgroundImage: {
         "home-background-img": "url('./src/assets/images/home-bg.png')",
+        "contact-background-img": "url('./src/assets/images/contact-bg.png')",
         "eclipse-one": "url('./src/assets/images/eclipse-one.png')",
         "eclipse-two": "url('./src/assets/images/eclipse-two.png')",
         "eclipse-text": "url('./src/assets/images/eclipse-text.png')",

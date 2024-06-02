@@ -1,10 +1,10 @@
-/* Home Button Styling */
 .styled-button {
   justify-content: center;
   border-radius: 8px;
   box-shadow: -1px -1px 2px 0px #fff inset, -4px -4px 10px 0px #fff inset,
     1px 1px 2px 0px rgba(0, 0, 0, 0.25) inset,
     5px 5px 8.5px 0px rgba(0, 0, 0, 0.25) inset;
+  background-color: #f0f0f3;
   color: #000;
   padding: 8px;
 }
