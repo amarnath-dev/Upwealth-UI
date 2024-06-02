@@ -4,6 +4,7 @@ import { NavigateBtn } from "../../components/buttons/NavigateButton/NavigateBtn
 import { ChatBtn } from "../../components/buttons/ChatButton/ChatBtn";
 import { CallBtn } from "../../components/buttons/CallButton/CallBtn";
 import { EmailBtn } from "../../components/buttons/EmailButton/EmailBtn";
+import { Footer } from "../../components/footer/Footer";
 
 export const Contact = () => {
   return (
@@ -21,28 +22,28 @@ export const Contact = () => {
               </h1>
             </div>
             <div className="py-9 font-Montserrat">
-              <form action="">
+              <form>
                 <div className="w-full flex justify-around">
                   <input
                     type="text"
-                    className="input-field rounded-xl bg-background-color py-2 indent-5 w-64"
+                    className="input-field rounded-xl bg-background-color py-2 indent-5 w-64 focus:outline-none"
                     placeholder="First Name"
                   />
                   <input
                     type="text"
-                    className="input-field rounded-xl bg-background-color py-2 indent-5 w-64"
+                    className="input-field rounded-xl bg-background-color py-2 indent-5 w-64 focus:outline-none"
                     placeholder="Last Name"
                   />
                 </div>
                 <div className="w-full flex justify-around mt-5">
                   <input
                     type="text"
-                    className="input-field rounded-xl bg-background-color py-2 indent-5 w-64"
+                    className="input-field rounded-xl bg-background-color py-2 indent-5 w-64 focus:outline-none"
                     placeholder="Phone number"
                   />
                   <input
                     type="text"
-                    className="input-field rounded-xl bg-background-color py-2 indent-5 w-64"
+                    className="input-field rounded-xl bg-background-color py-2 indent-5 w-64 focus:outline-none"
                     placeholder="Email ID"
                   />
                 </div>
@@ -50,7 +51,7 @@ export const Contact = () => {
                   <textarea
                     name="message"
                     id="message"
-                    className="input-field text-area rounded-xl w-full bg-background-color indent-5 py-3"
+                    className="input-field text-area rounded-xl w-full bg-background-color indent-5 py-3 focus:outline-none"
                     rows={3}
                     placeholder="Message"
                   ></textarea>
@@ -82,7 +83,7 @@ export const Contact = () => {
                   Get in touch with Upwealth magazine
                 </h1>
               </div>
-              <div className="mt-2 ml-5">
+              <div className="mt-2 ml-5 font-Montserrat">
                 <p>
                   If you have any questions regarding subscriptions, or how to
                   feature or advertise in our magazine, dont hesitate to get in
@@ -101,6 +102,11 @@ export const Contact = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Footer  */}
+      <section>
+        <Footer />
       </section>
     </>
   );
