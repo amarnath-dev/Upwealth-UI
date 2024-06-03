@@ -13,5 +13,3 @@
     npm run dev
  2. Access application in your browser at [http://localhost:5173/](http://localhost:5173/).
 
-## Technologies Used:
-- React.js
