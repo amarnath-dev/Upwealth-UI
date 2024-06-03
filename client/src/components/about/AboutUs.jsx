@@ -24,7 +24,7 @@ export const AboutUs = () => {
             doing the thing they enjoy? Well, look no further. UPWealth has all
             the answers you need. Read from small to large business owners who
             have mastered the art of creating and maintaining business systems,
-            sticking to their visions and persisting in their missions!The power
+            sticking to their visions and persisting in their missions! The power
             of leveraging other businesses is unmatched.
           </h1>
         </div>
