@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { SubscribeBtn } from "../../components/buttons/SubscribeButton/SubscribeBtn";
+import { SubscribeBtn } from "../../components/Buttons/SubscribeButton/SubscribeBtn";
 import { AboutUs } from "../../components/about/AboutUs";
 import Navbar from "../../components/navbar/Navbar";
 import HomeImage from "../../assets/images/home-img.png";
