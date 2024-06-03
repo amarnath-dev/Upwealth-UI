@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { HomeBtn } from "../Buttons/HomeButton/HomeBtn";
 import { LoginBtn } from "../Buttons/LoginButton/LoginBtn";
 import Logo from "../../assets/images/logo-img.png";
