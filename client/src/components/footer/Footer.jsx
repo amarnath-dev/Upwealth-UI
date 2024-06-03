@@ -1,10 +1,10 @@
-import Logo from "../../assets/images/logo-img.png";
 import { useState } from "react";
+import Logo from "../../assets/images/logo-img.png";
 import Facebook from "../../assets/svg/facebook.svg";
 import Insta from "../../assets/svg/insta.svg";
 import LinkedIn from "../../assets/svg/linkedIn.svg";
 import XIcon from "../../assets/svg/x.svg";
-import { SocialsBtn } from "../buttons/SocialsButton/SocialsBtn";
+import { SocialsBtn } from "../Buttons/SocialsButton/SocialsBtn";
 import "./Footer.css";
 
 export const Footer = () => {
