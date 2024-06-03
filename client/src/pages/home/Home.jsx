@@ -6,7 +6,7 @@ import HomeImage from "../../assets/images/home-img.png";
 import EclipseTextOne from "../../assets/images/eclipse-text-one.png";
 import EclipseTextTwo from "../../assets/images/eclipse-text-two.png";
 import EclipseTextThree from "../../assets/images/eclipse-text-three.png";
-import { NavigateBtn } from "../../components/buttons/NavigateButton/NavigateBtn";
+import { NavigateBtn } from "../../components/Buttons/NavigateButton/NavigateBtn";
 import EclipseTopLeft from "../../assets/images/eclipse-top-left.png";
 import EclipseTopRight from "../../assets/images/eclipse-top-right.png";
 import EclipseBottomRight from "../../assets/images/eclipse-bottom-right.png";

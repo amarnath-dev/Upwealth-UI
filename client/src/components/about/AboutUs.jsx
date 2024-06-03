@@ -1,4 +1,4 @@
-import { NavigateBtn } from "../buttons/NavigateButton/NavigateBtn";
+import { NavigateBtn } from "../Buttons/NavigateButton/NavigateBtn";
 import "./AboutUs.css";
 
 export const AboutUs = () => {

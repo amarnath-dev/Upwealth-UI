@@ -1,8 +1,8 @@
-import { HomeBtn } from "../buttons/HomeButton/HomeBtn";
-import { LoginBtn } from "../buttons/LoginButton/LoginBtn";
+import { HomeBtn } from "../Buttons/HomeButton/HomeBtn";
+import { LoginBtn } from "../Buttons/LoginButton/LoginBtn";
 import Logo from "../../assets/images/logo-img.png";
 import { useNavigate } from "react-router-dom";
-import { ContactBtn } from "../buttons/ContactButton/ContactBtn";
+import { ContactBtn } from "../Buttons/ContactButton/ContactBtn";
 import "./Navbar.css";
 
 const Navbar = ({ page }) => {
