@@ -14,7 +14,6 @@ import EclipseBottomLeft from "../../assets/images/eclipse-bottom-left.png";
 import EclipseCebterImg from "../../assets/images/eclipse-center-img.png";
 import "./Home.css";
 
-//Images
 import TopLeftVariant from "../../assets/images/eclipse-top-left-variant.png";
 import TopRightVariant from "../../assets/images/eclipse-top-right-variant.png";
 import BottomLeftVariant from "../../assets/images/eclipse-bottom-left-variant.png";
