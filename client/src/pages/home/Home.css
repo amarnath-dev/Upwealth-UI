@@ -6,9 +6,8 @@
 }
 
 .gradient-text-two {
-  background-image: linear-gradient(90deg, #343ada 20%, #d38d1a 97.97%);
-  background-clip: text;
+  background-image: linear-gradient(182.6deg, #343ada 23.75%, #d38d1a 97.97%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
-
