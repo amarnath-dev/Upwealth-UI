@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import "./SocialsBtn.css";
 
 export const SocialsBtn = ({ socialIcon }) => {
