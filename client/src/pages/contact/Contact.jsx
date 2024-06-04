@@ -1,10 +1,10 @@
-import "./Contact.css";
 import Navbar from "../../components/navbar/Navbar";
 import { NavigateBtn } from "../../components/Buttons/NavigateButton/NavigateBtn";
 import { ChatBtn } from "../../components/Buttons/ChatButton/ChatBtn";
 import { CallBtn } from "../../components/Buttons/CallButton/CallBtn";
 import { EmailBtn } from "../../components/Buttons/EmailButton/EmailBtn";
 import { Footer } from "../../components/footer/Footer";
+import "./Contact.css";
 
 export const Contact = () => {
   return (
