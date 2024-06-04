@@ -15,7 +15,7 @@ export const EmailBtn = () => {
   return (
     <button
       className={
-        "email-button bg-background-color rounded-2xl flex flex-col justify-center items-center text-call font-bold w-48 h-44"
+        "email-button bg-background-color rounded-2xl flex flex-col justify-center items-center text-call font-bold w-48 h-28 md:h-44"
       }
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={handleMouseLeave}
@@ -24,18 +24,18 @@ export const EmailBtn = () => {
       {hovered && clicked ? (
         <div>
           <div className="w-full flex justify-center">
-            <img src={EmailGolden} alt="email" className="w-10" />
+            <img src={EmailGolden} alt="email" className="w-5 md:w-10" />
           </div>
-          <h1 className="mt-2 text-xs text-golden">
+          <h1 className="mt-2 md:text-xs text-xs text-golden">
             info@upwealthmagazine.com
           </h1>
         </div>
       ) : (
         <div>
           <div className="w-full flex justify-center">
-            <img src={Email} alt="email" className="w-10" />
+            <img src={Email} alt="email" className="w-5 md:w-10" />
           </div>
-          <h1 className="mt-2">Send an email</h1>
+          <h1 className="mt-2 md:text-lg text-sm p-1 md:p-0">Send an email</h1>
         </div>
       )}
     </button>
