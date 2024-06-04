@@ -7,7 +7,7 @@ export const SubscribeBtn = () => {
 
   return (
     <button
-      className={`subscribe-btn text-2xl font-bold w-72 font-Montserrat cursor-pointer text-primary-text bg-background-color`}
+      className={`subscribe-btn text-lg md:text-2xl font-bold md:w-72 font-Montserrat cursor-pointer text-primary-text bg-background-color`}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
