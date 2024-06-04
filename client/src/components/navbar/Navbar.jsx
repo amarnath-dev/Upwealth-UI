@@ -13,14 +13,19 @@ const Navbar = ({ page }) => {
       <nav className="nav w-screen h-24 flex items-center justify-center">
         <div className="w-full flex justify-around items-center">
           <div className="flex justify-center items-center">
-            <img src={Logo} alt="logo" className="w-36 cursor-pointer" />
+            <img
+              src={Logo}
+              alt="logo"
+              className="w-16 md:w-36 cursor-pointer"
+              onClick={() => navigate("/")}
+            />
           </div>
-          <div className="flex justify-center items-center gap-7">
+          <div className="flex justify-center items-center gap-2 md:gap-7">
             {page === "home" ? (
               <>
                 <HomeBtn />
                 <button
-                  className="px-3 py-1 rounded text-xl"
+                  className="md:px-3 md:py-1 rounded md:text-xl text-primary-text"
                   onClick={() => navigate("/contact")}
                 >
                   Contact Us
@@ -29,7 +34,7 @@ const Navbar = ({ page }) => {
             ) : (
               <>
                 <button
-                  className="px-3 py-1 rounded text-xl"
+                  className="px-3 py-1 rounded md:text-xl"
                   onClick={() => navigate("/")}
                 >
                   Home
@@ -46,6 +51,5 @@ const Navbar = ({ page }) => {
     </>
   );
 };
-
 
 export default Navbar;

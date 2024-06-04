@@ -14,7 +14,7 @@ export const CallBtn = () => {
 
   return (
     <button
-      className="call-button bg-background-color rounded-2xl flex flex-col justify-center items-center text-call font-bold w-48 h-44"
+      className="call-button bg-background-color rounded-2xl flex flex-col justify-center items-center text-call font-bold w-48 h-28 md:h-44"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={handleMouseLeave}
       onClick={() => setClicked(true)}
@@ -22,16 +22,16 @@ export const CallBtn = () => {
       {hovered && clicked ? (
         <div>
           <div className="w-full flex justify-center">
-            <img src={CallGolden} alt="call" className="w-10" />
+            <img src={CallGolden} alt="call" className="w-5 md:w-10" />
           </div>
-          <h1 className="mt-2 text-golden">+1(931)-266-6424</h1>
+          <h1 className="mt-2 text-sm md:text-lg text-golden">+1(931)-266-6424</h1>
         </div>
       ) : (
         <div>
           <div className="w-full flex justify-center">
-            <img src={Call} alt="call" className="w-10" />
+            <img src={Call} alt="call" className="w-5 md:w-10" />
           </div>
-          <h1 className="mt-2">Call us</h1>
+          <h1 className="mt-2 text-sm md:text-lg">Call us</h1>
         </div>
       )}
     </button>
