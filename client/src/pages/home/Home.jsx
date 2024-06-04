@@ -2,7 +2,7 @@ import { useState } from "react";
 import { SubscribeBtn } from "../../components/Buttons/SubscribeButton/SubscribeBtn";
 import { AboutUs } from "../../components/about/AboutUs";
 import Navbar from "../../components/navbar/Navbar";
-import HomeImage from "../../assets/images/home-img.png";
+// import HomeImage from "../../assets/images/home-img.png";
 import EclipseTextOne from "../../assets/images/eclipse-text-one.png";
 import EclipseTextTwo from "../../assets/images/eclipse-text-two.png";
 import EclipseTextThree from "../../assets/images/eclipse-text-three.png";
@@ -16,6 +16,7 @@ import TopLeftVariant from "../../assets/images/eclipse-top-left-variant.png";
 import TopRightVariant from "../../assets/images/eclipse-top-right-variant.png";
 import BottomLeftVariant from "../../assets/images/eclipse-bottom-left-variant.png";
 import BottomRightVariant from "../../assets/images/eclipse-bottom-right-variant.png";
+import { Slider } from "../../components/slider/Slider";
 import "./Home.css";
 
 const Home = () => {
@@ -41,10 +42,8 @@ const Home = () => {
         <div className="w-full h-full">
           <div className="flex flex-col md:flex-row">
             <div className="md:order-2 flex-1 h-screen flex justify-center items-center">
-              <div>
-                <div className="mt-5 px-8">
-                  <img src={HomeImage} alt="home-img" />
-                </div>
+              <div className="w-full h-full">
+                <Slider />
               </div>
             </div>
 
@@ -70,7 +69,7 @@ const Home = () => {
                   <div className="py-4">
                     <SubscribeBtn />
                   </div>
-                  <div className="md:mt-8">
+                  <div className="md:mt-3">
                     <NavigateBtn />
                   </div>
                 </div>
@@ -174,3 +173,9 @@ const Home = () => {
 };
 
 export default Home;
+
+///Changing helloooo
+//Changoang
+
+//jsdhflkasgdf
+///hyyy changing
