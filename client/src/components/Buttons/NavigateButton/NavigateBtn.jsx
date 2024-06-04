@@ -5,11 +5,20 @@ import "./NavigateBtn.css";
 
 export const NavigateBtn = () => {
   const [hovered, setHovered] = useState(false);
+
+  const handleNavigateClick = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <button
       className={`navigate-btn flex justify-center items-center bg-background-color rounded-full w-12 h-12 mb-3 md:mb-0`}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
+      onClick={handleNavigateClick}
     >
       <img
         src={hovered ? ArrowDownWhite : ArrowDown}
